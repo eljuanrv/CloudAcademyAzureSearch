@@ -350,7 +350,7 @@ namespace JfkInitializer
                 CorsOptions = new CorsOptions(allowedOrigins: new List<string>() { "*" }),
                 Suggesters = 
                 {
-                    new SearchSuggester(name: "sg-jfk", sourceFields: "entities")
+                    new SearchSuggester(name: "sg-cloudAcademy", sourceFields: "entities")
                 }
             };
 
